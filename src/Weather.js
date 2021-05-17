@@ -83,7 +83,7 @@ export default function Weather() {
         <div className="the-week" id="forecast"></div>
       </div>
       <footer>
-        <a href="https://github.com/emeraz15/Weather-App" target="_blank">
+        <a href="https://github.com/emeraz15/weather-react" target="_blank">
           Open-source code
         </a>{" "}
         by Erika Meraz
