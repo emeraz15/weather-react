@@ -83,7 +83,11 @@ export default function Weather() {
         <div className="the-week" id="forecast"></div>
       </div>
       <footer>
-        <a href="https://github.com/emeraz15/weather-react" target="_blank">
+        <a
+          href="https://github.com/emeraz15/weather-react"
+          target="_blank"
+          rel="noreferrer"
+        >
           Open-source code
         </a>{" "}
         by Erika Meraz
@@ -93,6 +97,7 @@ export default function Weather() {
             href="https://www.flaticon.com/authors/good-ware"
             title="Good Ware"
             target="_blank"
+            rel="noreferrer"
           >
             Good Ware
           </a>
@@ -101,11 +106,17 @@ export default function Weather() {
             href="https://www.flaticon.com/authors/mynamepong"
             title="mynamepong"
             target="_blank"
+            rel="noreferrer"
           >
             mynamepong
           </a>
           from
-          <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">
+          <a
+            href="https://www.flaticon.com/"
+            title="Flaticon"
+            target="_blank"
+            rel="noreferrer"
+          >
             www.flaticon.com
           </a>
         </div>
