@@ -43,8 +43,7 @@
   text-decoration: none;
   color: white;
 }
-.current-day {
-  width: 125px;
+.current-day canvas {
   padding-top: 30px;
   position: relative;
   left: 30px;
