@@ -81,6 +81,7 @@ h6 {
 }
 .location {
   display: inline;
+  margin-left: 10px;
 }
 .location-pin {
   width: 15px;

@@ -2,6 +2,9 @@ import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
+import location from "./location.png";
+import humidity from "./humidity.png";
+import wind from "./wind.png";
 
 export default function WeatherInfo(props) {
   return (
@@ -12,7 +15,7 @@ export default function WeatherInfo(props) {
         </div>
 
         <div className="col-4 current-city">
-          <img src="./location.png" alt="location" className="location-pin" />
+          <img src={location} alt="location" className="location-pin" />
           <h1 className="location">{props.data.city}</h1>
           <br />
           <p className="date">
@@ -22,10 +25,10 @@ export default function WeatherInfo(props) {
         </div>
 
         <div className="col-4 current-stats">
-          <img src="./humidity.png" alt="humidity" className="small-icons" />
+          <img src={humidity} alt="humidity" className="small-icons" />
           <p className="humidity">{Math.round(props.data.humidity)}%</p>
           <br />
-          <img src="./wind.png" alt="wind" className="small-icons" />
+          <img src={wind} alt="wind" className="small-icons" />
           <p className="wind">{Math.round(props.data.wind)}mph</p>
         </div>
       </div>
