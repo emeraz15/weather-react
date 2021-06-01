@@ -4,19 +4,15 @@
   color: #ff719a;
 }
 
-#current-btn {
-  position: relative;
-  left: 40px;
-}
-
-.btn-info {
+.btn-light {
   background-color: #ffe29f;
   border-color: #ffe29f;
 }
 
-.btn-info:hover {
+.btn-light:hover {
   background-color: #ff719a;
   border-color: #ff719a;
+  color: white;
 }
 .city-form {
   margin: 0 auto;

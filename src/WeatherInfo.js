@@ -32,7 +32,6 @@ export default function WeatherInfo(props) {
           <p className="wind">{Math.round(props.data.wind)}mph</p>
         </div>
       </div>
-      <div className="the-week" id="forecast"></div>
     </div>
   );
 }
